@@ -20,6 +20,16 @@ The most notable is that at first we made the code based on two global variables
 
 Specifically, we were defining *game_state* and *object_relations* outside the functions without passing them as parameters. Finally, we decided to develop and include *game_state* and *object_relations* variables in all functions that use them to avoid relying on global variables.
 
+The second conflict we encountered was that, after finishing the game, the “What would you like to examine?” message kept popping up as input. The solution we found was twofold: **1)** we added a `return` in the game end condition within the `play_room` function **2)** enforce the condition for which the “What would you like to examine?” question pops up. :
+
+```python
+else:
+    if game_state[“current_room”] != game_state[“target_room”]:
+    examine_item(input("What would you like to examine? ”).strip(), game_state, object_relations)
+```
+
+Translated with DeepL.com (free version)
+
 # Deliverables
 
 * `functionsb.py`, contains all the functions
