@@ -25,9 +25,13 @@ Specifically, we were defining *game_state* and *object_relations* outside the f
 * `functionsb.py`, contains all the functions
 * `main.ipynb`, contains the objects and the solution
 
-## Google Collab Link
+## Link
 
 You can get access to the Escape Room from Google Collab [here](https://colab.research.google.com/drive/1RuM_ABfVHSQ-QQeeaj8Dg1UypzTK42eT).
+
+Get access to [functions.py](https://drive.google.com/file/d/11UHKeciDuAOvT2lTjYcZ0wFiVAcvvb-D/view)
+
+Get access to [main.ipynb](https://colab.research.google.com/drive/1RuM_ABfVHSQ-QQeeaj8Dg1UypzTK42eT)
 
 ## Participants
 
