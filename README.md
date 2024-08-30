@@ -41,6 +41,8 @@ Get access to [functions.py](https://drive.google.com/file/d/11UHKeciDuAOvT2lTjY
 
 Get access to [main.ipynb](https://colab.research.google.com/drive/1RuM_ABfVHSQ-QQeeaj8Dg1UypzTK42eT)
 
+You can watch the slide's presentations [here](https://gamma.app/docs/Proyecto-Scape-Room-Buenas-Practicas-en-Python-s2n9n7o1l7p145h?follow_on_start=true&following_id=2eqqtx5ltya8esx&mode=doc)
+
 ## Participants
 
 * [Almudena Castro](https://github.com/almudenamcastro)
