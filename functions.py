@@ -34,7 +34,8 @@ def play_room(room, game_state, object_relations):
 
     if(game_state["current_room"] == game_state["target_room"]):
         print("Congrats! You escaped the room!")
-        
+        return 
+
     else:
         intended_action = input("What would you like to do? Type 'explore' or 'examine'? ").strip()
         if intended_action == "explore":
@@ -115,7 +116,8 @@ def examine_item(item_name, game_state, object_relations):
         play_room(next_room, game_state, object_relations)
 
     else:
-        examine_item(input("What would you like to examine? ").strip(), game_state, object_relations)
+        if game_state["current_room"] != game_state["target_room"]:
+            examine_item(input("What would you like to examine? ").strip(), game_state, object_relations)
 
 
 # Define game state. Do not directly change this dict.
