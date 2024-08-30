@@ -28,8 +28,6 @@ else:
     examine_item(input("What would you like to examine? ”).strip(), game_state, object_relations)
 ```
 
-Translated with DeepL.com (free version)
-
 # Deliverables
 
 * `functionsb.py`, contains all the functions
